@@ -1,0 +1,186 @@
+.booking-form {
+  width: 920px;
+  height: 890px;
+  margin: 0 auto;
+  // background-color: deeppink;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+
+  .head {
+    font-family: Proxima;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: thin;
+    margin-left: 50px;
+  }
+
+  .top {
+    width: 890px;
+    flex-wrap: wrap;
+
+    .info {
+      height: 60px;
+      width: 360px;
+      border: $site-blue solid 1px;
+      font-family: Gillsans;
+      font-style: light;
+      font-size: 18px;
+      padding: 20px;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+
+    .email {
+      height: 60px;
+      width: 450px;
+      border: $site-blue solid 1px;
+      font-family: Gillsans;
+      font-style: light;
+      font-size: 18px;
+      padding: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    .hotel {
+      height: 60px;
+      width: 450px;
+      border: $site-blue solid 1px;
+      font-family: Gillsans;
+      font-style: light;
+      font-size: 18px;
+      padding: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  }
+
+  .middle {
+    display: flex;
+    margin-top: 20px;
+    width: 860px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 30px;
+
+    .chec {
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      .check {
+        font-family: Gillsans;
+        font-style: light;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+
+      .date {
+        height: 60px;
+        width: 700px;
+        border: $site-blue solid 1px;
+        font-family: Gillsans;
+        font-size: 18px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 50px;
+      }
+
+      .input-icon {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 390px;
+      }
+
+      .input-icon2 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 390px;
+      }
+    }
+
+    .amount {
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      justify-content: space-around;
+      margin-left: -40px;
+
+      .people {
+        font-family: Gillsans;
+        font-style: light;
+        font-size: 18px;
+        margin-left: 60px;
+        margin-top: 25px;
+      }
+
+      .num {
+        height: 60px;
+        width: 103px;
+        border: $site-blue solid 1px;
+        font-family: Gillsans;
+        font-size: 18px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 85px;
+      }
+
+      .input-icon3 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: -180px;
+      }
+
+      .input-icon4 {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 130px;
+      }
+
+      .input-icon5{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 430px;
+      }
+
+    }
+
+    .mess {
+      height: 190px;
+      width: 830px;
+      border: $site-blue solid 1px;
+      font-family: Gillsans;
+      font-size: 18px;
+      padding-left: 20px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  }
+
+  .submit-button {
+    width: 813px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $site-blue;
+    font-family: Gillsans;
+    font-size: 15px;
+    color: $white;
+    margin-top: 40px;
+    margin-left: 70px;
+    border: none;
+  }
+}
